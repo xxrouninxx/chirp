@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import { api } from "~/utils/api";
 
-export default function Home({}) {
+export default function Home() {
   // const hello = api.post.hello.useQuery({ text: "from tRPC" });
 
   const user = useUser();
