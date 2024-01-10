@@ -9,11 +9,13 @@ export default function Home({}) {
 =======
 export default function Home() {
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> dev
   const hello = api.post.hello.useQuery({ text: "from tRPC" });
 =======
+=======
+>>>>>>> dev
   // const hello = api.post.hello.useQuery({ text: "from tRPC" });
->>>>>>> 0e127c0 (Cleaned unused imports)
 
   const user = useUser();
 
