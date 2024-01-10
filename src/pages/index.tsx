@@ -3,10 +3,6 @@ import Head from "next/head";
 
 import { api } from "~/utils/api";
 
-<<<<<<<<< Temporary merge branch 1
-export default function Home({}) {
-  const hello = api.post.hello.useQuery({ text: "from tRPC" });
-=========
 export default function Home() {
   // const hello = api.post.hello.useQuery({ text: "from tRPC" });
 
