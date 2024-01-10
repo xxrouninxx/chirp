@@ -4,8 +4,16 @@ import Head from "next/head";
 
 import { api } from "~/utils/api";
 
+<<<<<<< HEAD
 export default function Home({}) {
+=======
+export default function Home() {
+<<<<<<< HEAD
+>>>>>>> dev
   const hello = api.post.hello.useQuery({ text: "from tRPC" });
+=======
+  // const hello = api.post.hello.useQuery({ text: "from tRPC" });
+>>>>>>> 0e127c0 (Cleaned unused imports)
 
   const user = useUser();
 
