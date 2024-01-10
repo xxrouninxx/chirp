@@ -9,7 +9,6 @@ export default function Home() {
   const user = useUser();
 
   const { data } = api.post.getAll.useQuery();
-  console.log(data);
 
   return (
     <>
